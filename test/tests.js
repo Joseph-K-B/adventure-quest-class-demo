@@ -1,1 +1,11 @@
-import './example.test.js';
+import './api.test.js';
+import './create-choice.test.js';
+import './create-completed-quest.test.js';
+import './create-quest-link.test.js';
+import './find-by-id.test.js';
+import './has-completed-all-quests.test.js';
+import './is-dead.test.js';
+import './make-user.test.js';
+import './score-gold.test.js';
+import './score-hp.test.js';
+import './score-quest.test.js';
