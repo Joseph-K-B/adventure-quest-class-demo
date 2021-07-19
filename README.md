@@ -1,3 +1,9 @@
+# Adventure Quest
+
+* Full Demo is on [full-demo](https://github.com/alchemy-june-demos/adventure-quest-class-demo/tree/full-demo) branch -- this is also what has been deployed to Github pages
+* Class code is on main branch and may be slightly different
+
+
 ## Making a plan
 1) Make a drawing of your app. Simple "wireframes"
 2) Once you have a drawing, name the HTML elements you'll need to realize your vision
