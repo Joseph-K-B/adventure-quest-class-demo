@@ -14,20 +14,39 @@
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png" />
+        <div class="logo">
+            Adventure Quest
         </div>
     </header>
     <main>
         <section class="main-section">
-
+            <h3>Welcome to Adenture Quest -- Pick you Character</h3>
+            <form id="user-form">
+                <label for="name">
+                    Name
+                    <input name="name" type="text">
+                </label>
+                <label for="race">
+                    Wizard
+                    <input type="radio" name="race" id="wizard" value="wizard">
+                </label>
+                <label for="race">
+                    Dwarf
+                    <input type="radio" name="race" id="dwarf" value="dwarf">
+                </label>
+                <label for="race">
+                    Elf
+                    <input type="radio" name="race" id="elf" value="elf">
+                </label>
+                <button type="submit">Lets Go!</button>
+            </form>
         </section>
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
     </footer>
 
-    <script type="module" src="./app.js"></script>
+    <script type="module" src="./home/home.js"></script>
 </body>
 
 </html>

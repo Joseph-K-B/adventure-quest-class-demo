@@ -15,3 +15,42 @@
 8) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
 9) Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.
 
+# Home (/)
+## HTML Elements
+* h3 with description
+* Form
+    * Input field -- user name
+    * Radio buttons -- character
+    * Submit Button -- start the game
+## Events
+* Form Submit (aka button click)
+    * create our user
+    * store our user in localStorage
+
+## User Data Model
+```javascript
+{
+    name: // <initialize from user input>,
+    race: // <initialize from radio buttons>,
+    hp: // <initalize to 35>,
+    gold: // <initialize to 0>,
+    // completed: ['dragons']
+    completed: {
+        'dragons': true
+    }
+}
+```
+
+# List (/map)
+* Links for each quest
+    * /quest/?id=<quest_id>
+
+# Quest Detail (/quest)
+## HTML Elements
+* h3 with name of the quest
+* image showing the quest image
+* paragraph or span with the description
+* 3 radio buttons with the choices
+* submit button
+
+
